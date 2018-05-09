@@ -1,4 +1,5 @@
-for i in ./*R1.fastq.gz
+#!/bin/bash
+for i in *R1.fastq.gz
  do
  base=${i%_*.gz}
  
